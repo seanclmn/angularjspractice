@@ -7,6 +7,7 @@ app.component('component',{
 
 app.component('text',{
     templateUrl: '/components/text/text.html',
+    bindings: {binding: '='},
     controller: function textController(){
         this.string = 'string'
     }
